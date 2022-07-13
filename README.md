@@ -1,10 +1,10 @@
 ## colin davis
 
-[Resume](www.google.com)
+[Resume](https://www.google.com)
 
 [GitHub](https://github.com/colin-m-davis/)
 
-[LinkedIn](https://linkedin.com/colin-m-davis/)
+[LinkedIn](https://linkedin.com/in/colin-m-davis/)
 
 [Email](mailto:colinmichaelsdavis@gmail.com)
 
