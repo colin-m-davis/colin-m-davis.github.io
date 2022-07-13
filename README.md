@@ -1,5 +1,7 @@
 # colin davis
 
+here's some information about me
+
 ## links
 
 [Resume](www.google.com)
