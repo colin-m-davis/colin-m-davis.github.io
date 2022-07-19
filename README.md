@@ -1,6 +1,6 @@
 ## colin davis
 
-[Resume](https://colin-m-davis.github.io/resume.pdf)
+[Resume](https://colin-m-davis.github.io/resume.pdf?raw=true)
 
 [GitHub](https://github.com/colin-m-davis/)
 
