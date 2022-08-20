@@ -2,7 +2,6 @@ use yew::prelude::*;
 
 #[function_component(Projects)]
 pub fn projects() -> Html {
-
     let archive = ProjectProps {
         name: String::from("Archive"),
         tech: String::from("C"),
@@ -49,7 +48,7 @@ struct ProjectProps {
     pub name: String,
     pub tech: String,
     pub link: String,
-    pub desc: String
+    pub desc: String,
 }
 
 #[function_component(Project)]

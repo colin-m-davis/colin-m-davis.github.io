@@ -16,7 +16,7 @@ pub fn home() -> Html {
                 <li><a class="block" href="mailto: colinmichaelsdavis@gmail.com">{ "colinmichaelsdavis@gmail.com" }</a></li>
                 <li><a class="block" href="tel:415-763-9286">{ "415-763-9286" }</a></li>
                 <li><a class="block" href="https://github.com/colin-m-davis">{ "GitHub" }</a></li>
-                <li><a class="block" href="https://linkedin.com/in/colin-m-davis">{ "LinkedIn" }</a></li> 
+                <li><a class="block" href="https://linkedin.com/in/colin-m-davis">{ "LinkedIn" }</a></li>
             </div>
             <footer>
             {"I built the site in Rust, compiling to WebAssembly."}

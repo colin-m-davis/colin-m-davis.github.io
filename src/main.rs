@@ -4,13 +4,15 @@ use yew_router::prelude::*;
 mod route;
 use route::Route;
 mod pages;
-use pages::{ projects::Projects, home::Home };
+use pages::{home::Home, projects::Projects};
 
 pub fn switch(routes: &Route) -> Html {
     match routes {
         Route::Projects => html! { <Projects/> },
         Route::Home => html! { <Home/> },
-        Route::NotFound => html! { <h1 class="mt-5 ml-5 mr-5 title">{ "404 - Page not found" }</h1>}
+        Route::NotFound => {
+            html! { <h1 class="mt-5 ml-5 mr-5 title">{ "404 - Page not found" }</h1>}
+        }
     }
 }
 
