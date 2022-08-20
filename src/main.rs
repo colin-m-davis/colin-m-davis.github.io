@@ -4,11 +4,10 @@ use yew_router::prelude::*;
 mod route;
 use route::Route;
 mod pages;
-use pages::{home::Home, projects::Projects};
+use pages::{home::Home};
 
 pub fn switch(routes: &Route) -> Html {
     match routes {
-        Route::Projects => html! { <Projects/> },
         Route::Home => html! { <Home/> },
         Route::NotFound => {
             html! { <h1 class="mt-5 ml-5 mr-5 title">{ "404 - Page not found" }</h1>}
@@ -25,20 +24,6 @@ fn app() -> Html {
                     <div class="columns is-vcentered">
                         <div class="column is-2">
                             <h2 class="title is-4">{ "Colin Davis" }</h2>
-                        </div>
-                        <div class="column is-1">
-                            <h2 class="subtitle is-5">
-                                <Link<Route> to={Route::Home}>
-                                    { "Home" }
-                                </Link<Route>>
-                            </h2>
-                        </div>
-                        <div class="column is-1">
-                            <h2 class="subtitle is-5">
-                                <Link<Route> to={Route::Projects}>
-                                    { "Projects" }
-                                </Link<Route>>
-                            </h2>
                         </div>
                     </div>
                 </div>
